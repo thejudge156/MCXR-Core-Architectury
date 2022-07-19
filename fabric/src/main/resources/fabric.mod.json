@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "mcxr-core",
+  "id": "mcxrcore",
   "version": "${version}",
   "name": "[MCXR] Core",
   "description": "Lightweight XR friendly framework. Allows VR-players to use all vr features.\nThis mod does NOT let you play on vr by itself [MCXR] Play is needed too.",
@@ -17,7 +17,7 @@
       "links": {
         "modmenu.discord": "https://discord.gg/CqEZbJwWx4"
       },
-      "parent": "mcxr-play"
+      "parent": "mcxrplay"
     }
   },
   "license": "MIT",
