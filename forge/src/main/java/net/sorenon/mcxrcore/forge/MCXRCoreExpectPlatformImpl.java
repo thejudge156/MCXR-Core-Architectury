@@ -2,10 +2,7 @@ package net.sorenon.mcxrcore.forge;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraftforge.fml.ModList;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.loading.FMLLoader;
 import net.minecraftforge.fml.loading.FMLPaths;
-import net.sorenon.mcxrcore.MCXRExpectPlatform;
 
 import java.nio.file.Path;
 

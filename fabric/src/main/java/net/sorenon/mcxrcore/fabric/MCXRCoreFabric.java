@@ -4,9 +4,9 @@ import io.netty.buffer.Unpooled;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.networking.v1.ServerLoginConnectionEvents;
 import net.minecraft.network.FriendlyByteBuf;
-import net.sorenon.mcxr.core.MCXRCore;
+import net.sorenon.mcxrcore.MCXRCore;
 
-import static net.sorenon.mcxr.core.MCXRCore.S2C_CONFIG;
+import static net.sorenon.mcxrcore.MCXRCore.S2C_CONFIG;
 
 public class MCXRCoreFabric implements ModInitializer {
     @Override
