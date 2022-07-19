@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[41,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "mcxrcore"
+version = "${version}"
+displayName = "[MCXR] Core"
+authors = "Sorenon, The Judge (Ported to Forge)"
+description = '''
+Lightweight XR friendly framework. Allows VR-players to use all vr features.
+This mod does NOT let you play on vr by itself [MCXR] Play is needed too.
+'''
+#logoFile = ""
+
+[[dependencies.mcxrcore]]
+modId = "forge"
+mandatory = true
+versionRange = "[41,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mcxrcore]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mcxrcore]]
+modId = "architectury"
+mandatory = true
+versionRange = "[5.9.31,)"
+ordering = "AFTER"
+side = "BOTH"
