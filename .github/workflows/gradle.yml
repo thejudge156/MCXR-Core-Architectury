@@ -34,3 +34,14 @@ jobs:
       uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
       with:
         arguments: build
+    - name: Upload Forge
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: Forge
+        path: ./forge/build/libs/MCXRCore-1.0.0.jar
+    - name: Upload Fabric
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: Fabric
+        path: ./fabric/build/libs/MCXRCore-1.0.0.jar
+
