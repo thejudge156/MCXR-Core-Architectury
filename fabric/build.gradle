@@ -38,6 +38,8 @@ dependencies {
 
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
+
+    include("org.joml:joml:${rootProject.joml_version}")
 }
 
 processResources {
