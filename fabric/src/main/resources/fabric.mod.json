@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "mcxr-core",
-  "version": "${mod_version}",
+  "version": "${version}",
   "name": "[MCXR] Core",
   "description": "Lightweight XR friendly framework. Allows VR-players to use all vr features.\nThis mod does NOT let you play on vr by itself [MCXR] Play is needed too.",
   "authors": [
@@ -41,6 +41,6 @@
     "java": ">=17"
   },
   "suggests": {
-    "mcxrplay": "${mod_version}"
+    "mcxrplay": "${version}"
   }
 }
